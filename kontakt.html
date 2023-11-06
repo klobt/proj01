@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontakt</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+    </head>
+    <body id="top" onload="onload()">
+        <header>
+            <div>
+                <h1 class="big">LAMPY</h1>
+            </div>
+            <div>
+                <a href="#top">na samą górę</a>
+            </div>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Strona Główna</a>
+                    </li>
+                    <li>
+                        <a href="gazowe.html">Lampy Gazowe</a>
+                    </li>
+                    <li>
+                        <a href="plazmowe.html">Lampy Plazmowe</a>
+                    </li>
+                    <li>
+                        <a href="kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+            <form>
+                <div>
+                    <label for="contact-email">Email</label>
+                    <input id="contact-email" type="email" placeholder="Wpisz email..." />
+                </div>
+                <div>
+                    <label for="contact-message">Uwaga</label>
+                    <textarea id="contact-message">
+                    </textarea>
+                </div>
+                <div>
+                    <button type="button" id="contact-submit">
+                        Wyślij
+                    </button>
+                    <div id="contact-thankyou" class="green"></div>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <p>
+                Autor: Kamil Obeidat
+            </p>
+        </footer>
+    </body>
+</html>
